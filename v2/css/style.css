@@ -351,8 +351,8 @@ header.smaller.scroll-light #mainmenu li li a:hover {
 }
 
 .nft_pic_wrap img {
-    height: 800px !important;
-    width: 400px !important;
+    height: 600px !important;
+    width: 300px !important;
     border-radius: 33px;
     display: flex;
     justify-content: center;
