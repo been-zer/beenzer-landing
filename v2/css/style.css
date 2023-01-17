@@ -4897,7 +4897,8 @@ i.font60 {
     border-radius: 20px;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
-    background-color: rgba(129, 129, 129, 0.856);
+    background-color: rgb(131, 131, 131);
+    color: white;
 }
 
 .de-card h3{
@@ -8591,7 +8592,7 @@ object {
 
 .video-1 {
     display: flex;
-    opacity: 22%;
+    opacity: 10%;
     justify-content: center;
 }
 
