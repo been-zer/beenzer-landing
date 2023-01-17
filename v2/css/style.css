@@ -32,8 +32,8 @@
 * {
     --body-font: "DM Sans", Helvetica, Arial, sans-serif;
     --title-font: "DM Sans", Helvetica, Arial, sans-serif;
-    --dark-scheme-color: #040836;
-    --dark-scheme-color-2: #0d1250;
+    --dark-scheme-color: #181818;
+    --dark-scheme-color-2: #252525;
     --dark-scheme-font-color: #999999;
 }
 
@@ -602,7 +602,7 @@ header .header-col.mid .social-icons {
 }
 
 .dark-scheme #mainmenu ul {
-    background: #21273e;
+    background: #181818;
 }
 
 #mainmenu li {
@@ -786,7 +786,7 @@ header .header-col.mid .social-icons {
 }
 
 .dark-scheme #mainmenu li ul ul li a{
-    background: #21273E;
+    background: #2b2b2bdc;
 }
 
 #mainmenu li:hover>ul {
@@ -901,7 +901,7 @@ header .header-col.mid .social-icons {
 }
 
 .dark-scheme #mainmenu li ul.mega .menu-content{
-    background: #21273e;
+    background: #222222;
 }
 
 .dark-scheme #mainmenu li ul.mega .menu-content{
@@ -3225,7 +3225,7 @@ a.btn-main.btn-white {
 
 header a.btn-main,
 header a.btn-line {
-    padding: 6px 20px !important;
+    padding: 14px 20px !important;
 }
 
 header a.btn-main i {
@@ -13203,13 +13203,14 @@ a.read_more i {
 
 #switch_scheme {
     display: inline-block;
-    width: 39px;
-    height: 39px;
+    width: 29px;
+    height: 29px;
     font-size: 20px;
     line-height: 1em;
-    padding-top: 8px;
+    padding-top: 4px;
+    padding-left: 2px;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 20px;
     border-radius: 30px;
     -moz-border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -14678,6 +14679,8 @@ img.nft__item_preview{
 
 .menu_side_area {
     margin-left: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .rtl .menu_side_area {

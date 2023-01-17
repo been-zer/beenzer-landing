@@ -32,7 +32,7 @@
         $('body').addClass("dark-scheme");
         $('header').removeClass("header-light");
         $('header').removeClass("scroll-light");
-        $('html').css('background',"#010203");
+        $('html').css('background',"#000");
         custom_bg();
         $.cookie("c_mod", 1, { expires : 1000 }, '/');
     }
