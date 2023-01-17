@@ -4897,6 +4897,7 @@ i.font60 {
     border-radius: 20px;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
+    background-color: rgba(129, 129, 129, 0.856);
 }
 
 .de-card h3{
@@ -8586,6 +8587,12 @@ object {
     vertical-align: baseline;
     min-width: 100%;
     min-height: 100%;
+}
+
+.video-1 {
+    display: flex;
+    opacity: 50%;
+    justify-content: center;
 }
 
 .de-video-container {
