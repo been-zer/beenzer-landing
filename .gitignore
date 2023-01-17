@@ -18,6 +18,9 @@ build/
 .env.development
 .env.production
 
+# mac files
+.DS_Store
+
 # Logs
 logs
 *.log
