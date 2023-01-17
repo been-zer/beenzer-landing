@@ -330,6 +330,13 @@ header.smaller.scroll-light #mainmenu li li a:hover {
     color: #ffffff;
 }
 
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
 .bg-custom {
     background: linear-gradient(90deg, rgba(201, 196, 0, 1) 0%, rgba(80, 224, 50, 1) 40%, rgba(0, 212, 255, 1) 100%) !important;
     opacity: 80%;
