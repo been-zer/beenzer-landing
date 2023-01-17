@@ -3413,7 +3413,12 @@ a.btn-link {
     margin: 0;
     padding: 0;
     margin-bottom: 15px;
-    line-height: .5em;
+    line-height: 1.2em;
+    font-size: 72px;
+    background: -webkit-linear-gradient(120deg, rgb(235, 213, 22), rgb(60, 245, 13));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .de_count h5 {
