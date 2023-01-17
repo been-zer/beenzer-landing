@@ -11600,6 +11600,13 @@ section.no-padding {
     background: url('../images/page-loader.gif') 50% 50% no-repeat rgb(249, 249, 249);
 }
 
+.gif {
+    margin-right: 40px;
+    margin-left: 40px;
+    height: 680px;
+    width: 400px;
+}
+
 .page-overlay {
     display: none;
     width: 120px;
