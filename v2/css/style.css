@@ -15069,6 +15069,18 @@ img.nft__item_preview{
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+.sun {
+    margin-left: 1.5px;
+    margin-bottom: 10px;
+    display: block !important;
+}
+
+.moon {
+    margin-left: 3px;
+    margin-bottom: 8px;
+    display: block !important;
+}
+
 /* 5 columns */
 
 @media (min-width: 992px) {
