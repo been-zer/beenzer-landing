@@ -13576,6 +13576,10 @@ a.read_more i {
     height: auto;
 }
 
+.img-team {
+    height: 110px;
+}
+
 .nft_coll {
     background: #ffffff;
     padding-bottom: 10px;
@@ -13648,7 +13652,8 @@ a.read_more i {
 
 .nft_coll_pp {
     width: 60px;
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     margin-top: -30px;
     margin-bottom: 10px;
@@ -13830,6 +13835,13 @@ a.read_more i {
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
     z-index: 2;
+}
+
+.pp-coll {
+    width: 160px !important;
+    margin-top: -44px !important;
+    margin-bottom: 22px !important;
+
 }
 
 .de-pp-group a {
