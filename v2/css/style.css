@@ -1589,6 +1589,31 @@ header.header-light .logo-2 {
     justify-content: center;
 }
 
+.technology {
+    display: flex;
+    background-position: center center;
+    justify-content: center;
+}
+
+.google {
+    width: 160px !important;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.solana {
+    width: 260px !important;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.metaplex {
+    width: 260px !important;
+    margin: 20px;
+    margin-top: 20px;
+}
+
 /* topbar start here */
 
 #topbar {
@@ -15096,6 +15121,11 @@ img.nft__item_preview{
 
 .wallet-div {
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.wallet {
+    display: flex;
+    justify-content: center;
 }
 
 .sun {
