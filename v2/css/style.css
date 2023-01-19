@@ -1580,6 +1580,15 @@ header.header-light .logo-2 {
     display: inline-block;
 }
 
+.beenzer-logo {
+    display: flex;
+    font-size: 33px;
+    margin-top: 17px;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
 /* topbar start here */
 
 #topbar {
