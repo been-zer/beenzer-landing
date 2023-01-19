@@ -2127,8 +2127,8 @@ header.header-light .logo-2 {
 .p-tagline {
     position: absolute;
     z-index: 1;
-    top: 20px;
-    left: 20px;
+    bottom: 0px;
+    left: 5px;
 }
 
 .p-tagline,
@@ -5183,6 +5183,10 @@ i.font60 {
 
 .box-border {
     border: solid 2px #333;
+}
+
+.news-img {
+    height: 240px;
 }
 
 /* list */
