@@ -42,6 +42,30 @@
 
 /* body */
 
+@media (max-width: 978px) {
+
+    .bg-custom {
+        padding: 0 !important;
+        margin: 0 !important;
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
+    }
+    .bg-custom-2 {
+        padding: 0 !important;
+        margin: 0 !important;
+        padding-top: 2rem !important;
+        padding-bottom: 4rem !important;
+    }
+
+    .navbar-fixed-top,
+    .navbar-fixed-bottom,
+    .navbar-static-top {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
+
 
 /* ================================================== */
 
@@ -361,6 +385,15 @@ header.smaller.scroll-light #mainmenu li li a:hover {
 .bg-custom {
     background: linear-gradient(90deg, rgba(201, 196, 0, 1) 0%, rgba(80, 224, 50, 1) 40%, rgba(0, 212, 255, 1) 100%) !important;
     opacity: 90%;
+}
+
+.bg-custom-2 {
+    background: linear-gradient(90deg, rgba(24, 24, 24, 0.825) 0%, rgba(128, 128, 128, 0.507) 60%, rgba(255, 255, 255, 0.925) 100%) !important;
+    border-radius: 0% !important;
+}
+
+.tiktok {
+    border: 1px solid rgb(21, 255, 0);
 }
 
 .wide header{
