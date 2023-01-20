@@ -57,6 +57,18 @@
         padding-bottom: 4rem !important;
     }
 
+    .news-img {
+        height: 180px !important;
+    }
+
+    .team-tags {
+        margin-bottom: 2rem !important;
+    }
+
+    .titles {
+        margin-top: 8rem !important;
+    }
+
     .navbar-fixed-top,
     .navbar-fixed-bottom,
     .navbar-static-top {
@@ -5229,6 +5241,7 @@ i.font60 {
     height: 240px;
 }
 
+
 /* list */
 
 .activity-list,
@@ -8776,7 +8789,11 @@ object {
 
 #map {
     width: 100%;
-    height: 500px;
+    height: 300px;
+    border-radius: 2rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    margin-left: -1rem;
 }
 
 .map iframe {
