@@ -374,6 +374,11 @@ header.smaller.scroll-light #mainmenu li li a:hover {
     box-shadow: inset 0 0 6px #30d31b,
 }
 
+.stats {
+    display: flexbox !important;
+    justify-content: center;
+}
+
 .nft_pic_wrap img {
     height: 600px !important;
     width: 300px !important;
