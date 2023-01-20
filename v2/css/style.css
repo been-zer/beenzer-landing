@@ -388,12 +388,13 @@ header.smaller.scroll-light #mainmenu li li a:hover {
 }
 
 .bg-custom-2 {
-    background: linear-gradient(90deg, rgba(24, 24, 24, 0.825) 0%, rgba(128, 128, 128, 0.507) 60%, rgba(255, 255, 255, 0.925) 100%) !important;
+    background: linear-gradient(130deg, rgba(201, 196, 0, 1) 0%, rgba(94, 218, 11, 0.825) 60%, rgba(0, 212, 255, 0.75) 100%) !important;
     border-radius: 0% !important;
+    padding-top: 40px !important;
 }
 
 .tiktok {
-    border: 1px solid rgb(21, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .wide header{
@@ -1631,13 +1632,14 @@ header.header-light .logo-2 {
 .google {
     width: 160px !important;
     margin: 10px;
-    margin-right: 20px;
+    margin-left: 60px;
 }
 
 .solana {
     width: 260px !important;
     margin: 20px;
     margin-top: 20px;
+    margin-left: -40px;
 }
 
 .metaplex {
