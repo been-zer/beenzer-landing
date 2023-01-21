@@ -11212,6 +11212,13 @@ i.big {
     margin-bottom: -15px;
 }
 
+.owl-about {
+    width: 400px !important;
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
 .owl-stage-outer .feature-box-type-2 {
     overflow: none;
     margin: 30px 0 30px 0;
