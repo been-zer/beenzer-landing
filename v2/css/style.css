@@ -89,10 +89,6 @@
     .menu_side_area {
         padding: 0 !important;
     }
-
-    .fa {
-        display: block !important;
-    }
 }
 
 
@@ -15206,13 +15202,13 @@ img.nft__item_preview{
 }
 
 .sun {
-    margin-left: 1.5px;
-    margin-bottom: 10px;
+    margin-right: 1px;
+    margin-bottom: 11px;
 }
 
 .moon {
-    margin-left: 3px;
-    margin-bottom: 8px;
+    margin-right: 1px;
+    margin-bottom: 9px;
 }
 
 /* 5 columns */
