@@ -12,6 +12,9 @@ keypair/
 dist/
 build/
 
+# assets
+*.mp4
+
 # dotenv environment variables file
 .env
 .env.local
