@@ -40,7 +40,7 @@
 /* ================================================== */
 
 
-/* body */
+/* mobile */
 
 @media (max-width: 978px) {
 
@@ -69,12 +69,29 @@
         margin-top: 8rem !important;
     }
 
+    h1 {
+        font-size: 58px !important;
+    }
+
+    .stats {
+        display: flexbox !important;
+        justify-content: center !important;
+    }
+
     .navbar-fixed-top,
     .navbar-fixed-bottom,
     .navbar-static-top {
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 0;
+    }
+
+    .menu_side_area {
+        padding: 0 !important;
+    }
+
+    .fa {
+        display: block !important;
     }
 }
 
@@ -14850,9 +14867,9 @@ img.nft__item_preview{
 }
 
 .menu_side_area {
-    margin-left: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .rtl .menu_side_area {
