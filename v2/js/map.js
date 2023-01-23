@@ -4,7 +4,7 @@ function initMap() {
     center: { lat: 35.717, lng: 139.731 },
   });
 
-  const customIcon = "images/logo-1.png";
+  const customIcon = "images/logo.jpg";
   const marker = new google.maps.Marker({
     position: { lat: 35.717, lng: 139.731 },
     map: map,

@@ -1373,7 +1373,7 @@ section.no-bg,
 .text-gradient,
 .de_countdown.s2,
 .dark-scheme .de_countdown.s2{  
-    background: linear-gradient(45deg, var(--secondary-color-2), var(--secondary-color));
+    background: linear-gradient(45deg, var(--secondary-color), var(--secondary-color-2));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -12500,9 +12500,9 @@ a.read_more i {
     width: 40px;
     height: 40px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     border-radius: 100%;
-    margin-top: 17px;
+    margin-top: 20px;
 }
 
 .text-beenzer {
