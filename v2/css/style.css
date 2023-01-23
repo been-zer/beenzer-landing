@@ -89,6 +89,7 @@
     .menu_side_area {
         padding: 0 !important;
     }
+
 }
 
 
@@ -1336,6 +1337,40 @@ header.header-mobile.header-light #menu-btn {
     ;
 }
 
+.iphone {
+    position: absolute;
+    width: 380px !important;
+}
+
+@media (max-width: 978px) {
+    .iphone {
+        height: 640px;
+        width: 350px !important;
+    }
+}
+
+.iphone-title {
+    position: absolute;
+    left: 16%;
+    bottom: 12%;
+    font-size: 16px !important;
+}
+
+.beenbon-box {
+    height: 700px !important;
+    width: 330px !important;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.beenbon {
+    height: 800px !important;
+    width: 350px !important;
+}
+
+
+
 /* ================================================== */
 
 
@@ -1373,9 +1408,24 @@ section.no-bg,
 .text-gradient,
 .de_countdown.s2,
 .dark-scheme .de_countdown.s2{  
-    background: linear-gradient(45deg, var(--secondary-color), var(--secondary-color-2));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: linear-gradient(45deg, var(--secondary-color-2), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        font-weight: bold;
+}
+
+.text-gradient-2 {
+    background: linear-gradient(45deg, var(--secondary-color-3), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        font-weight: bold;
+}
+
+.text-gradient-3 {
+    background: linear-gradient(45deg, var(--secondary-color), var(--secondary-color-3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }
 
 .de-navbar-left .container-fluid .container {
@@ -1667,6 +1717,11 @@ header.header-light .logo-2 {
     width: 260px !important;
     margin: 20px;
     margin-top: 20px;
+}
+
+.hero-img {
+    height: 650px !important;
+    margin: 2rem !important;;
 }
 
 /* topbar start here */
@@ -12509,6 +12564,7 @@ a.read_more i {
     text-align: left;
     font-size: 28px;
     margin-top: 17px;
+    font-weight: bold;
 }
 
 

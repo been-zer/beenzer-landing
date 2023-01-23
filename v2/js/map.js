@@ -11,9 +11,17 @@ function initMap() {
     icon: customIcon,
   });
 
-  const image = "images/gifs/13.gif";
+  const video = `<video autoplay loop class="beenbon"
+                  style="width:200px;height:200px;">
+                  <source
+                    src="./videos/13.mp4"
+                    type="video/mp4">
+                  Your browser does not support the
+                  video
+                  tag.
+                </video>`;
   const infoWindow = new google.maps.InfoWindow({
-    content: `<img src="${image}" style="width:200px;height:200px;">`,
+    content: video,
   });
 
   marker.addListener("click", function () {
