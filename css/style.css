@@ -406,8 +406,8 @@ header.smaller.scroll-light #mainmenu li li a:hover {
 }
 
 .nft_pic_wrap img {
-    height: 600px !important;
-    width: 300px !important;
+    height: 500px !important;
+    width: 250px !important;
     border-radius: 33px;
     display: flex;
     justify-content: center;
@@ -1426,6 +1426,13 @@ section.no-bg,
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
+}
+
+.special-gradient {
+    background: linear-gradient(45deg, #cc130db6, #e808f08f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
 }
 
 .de-navbar-left .container-fluid .container {
