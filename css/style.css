@@ -1405,6 +1405,10 @@ section.no-bg,
     padding: 90px 0 90px 0;
 }
 
+.europe {
+    max-width: 1000px !important;
+}
+
 .text-gradient,
 .de_countdown.s2,
 .dark-scheme .de_countdown.s2{  
