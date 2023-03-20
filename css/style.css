@@ -14420,12 +14420,12 @@ a.read_more i {
 .nft__item {
     position: relative;
     padding: 20px;
-    border: solid 1px rgba(255, 255, 255, .4) !important;
+    background-color: #f2f2f2;
+    border: none !important;
     border-radius: 15px;
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     margin-bottom: 25px;
-    background: #ffffff;
 }
 
 .nft__item.style-2,
@@ -14444,15 +14444,38 @@ a.read_more i {
 
 .text-light .nft__item {
     background: rgba(255, 255, 255, .4);
-    border: solid 1px rgba(0, 0, 0, 0.5) !important;
+    border: solid 1px rgba(0, 0, 0, 0.1) !important;
+}
+
+.nft_pic_title {
+    width: 100%;
+    text-align: center;
+    font-size: 16px !important;
+    padding-top: 8px;
+    padding-bottom: 14px;
+}
+
+.nft_pic_title:hover {
+    color:rgb(60, 220, 13, 0.8);
+}
+
+.print_btn {
+    color: rgba(255, 255, 255, .3) !important;
+    padding: 8px 16px;
+    border: solid 1px rgb(60, 245, 13);
+    border-radius: 22px;
+    margin: 8px;
+    margin-right: 14px;
+    margin-top: 14px;
+    font-size: 12px;
 }
 
 .nft__item:hover,
 .opt-create:hover {
     -webkit-box-shadow: 2px 2px 30px 0px rgba(20, 20, 20, 0.1);
     -moz-box-shadow: 2px 2px 30px 0px rgba(20, 20, 20, 0.1);
-    box-shadow: 2px 2px 30px 0px rgba(20, 20, 20, 0.1);
-    border: solid 1px rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 2px 2px 30px 0px rgba(20, 200, 20, 0.1);
+    border: solid 1px rgba(0, 0, 0, 0.1) !important;
 }
 
 img.nft__item_preview{
@@ -14575,8 +14598,8 @@ img.nft__item_preview{
 
 .nft__item_click {
     position: absolute;
-    bottom: 6px;
-    right: 0;
+    top: 5px;
+    right: 6px;
     text-align: center;
 }
 
@@ -14587,17 +14610,17 @@ img.nft__item_preview{
 
 .nft__item_click span:after {
     display: block;
-    font-size: 16px;
-    content: "...";
+    font-size: 12px;
+    border: solid 1px #bbb; 
+    content: "Share";
     position: relative;
     font-weight: bold;
     letter-spacing: 2px;
     cursor: pointer;
     color: #0d0c22;
     line-height: 0;
-    width: 24px;
-    height: 24px;
-    padding: 8px 0 0 2px;
+    width: 60px !important;
+    height: 24px !important;
     border-radius: 30px;
 }
 
