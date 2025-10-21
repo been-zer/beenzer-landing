@@ -19,6 +19,7 @@
 ## 📋 Table of Contents
 
 - [About](#-about)
+- [Screenshots](#-screenshots)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
@@ -45,6 +46,20 @@ With Beenzer, users can:
 - 🪙 **Invest and earn** real dividends with $BEEN and $BEENZ tokens
 
 Unlike traditional social media platforms, Beenzer puts the power back in the hands of users, not big tech companies.
+
+---
+
+## 📱 Screenshots
+
+<div align="center">
+  <img src="images/app/1.PNG" alt="App Screenshot 1" width="250"/>
+  <img src="images/app/2.PNG" alt="App Screenshot 2" width="250"/>
+  <img src="images/app/3.PNG" alt="App Screenshot 3" width="250"/>
+</div>
+
+<div align="center">
+  <em>Beenzer Mobile App - Create, Own, and Trade NFTs</em>
+</div>
 
 ---
 
