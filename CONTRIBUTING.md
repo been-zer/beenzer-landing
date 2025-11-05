@@ -19,6 +19,7 @@ We use GitHub to host code, track issues and feature requests, as well as accept
 We actively welcome your pull requests! Here's how to contribute:
 
 1. **Fork the repository** and create your branch from `main`
+
    ```bash
    git clone https://github.com/YOUR_USERNAME/beenzer-landing.git
    cd beenzer-landing
@@ -26,17 +27,20 @@ We actively welcome your pull requests! Here's how to contribute:
    ```
 
 2. **Make your changes**
+
    - Follow the existing code style
    - Test your changes across different browsers
    - Ensure responsive design works on mobile, tablet, and desktop
    - Add comments where necessary
 
 3. **Commit your changes** using descriptive commit messages with emojis
+
    ```bash
    git commit -m "✨ Add amazing new feature"
    ```
 
    Common emoji prefixes:
+
    - ✨ `:sparkles:` - New feature
    - 🐛 `:bug:` - Bug fix
    - 📝 `:memo:` - Documentation
@@ -47,6 +51,7 @@ We actively welcome your pull requests! Here's how to contribute:
    - 🚀 `:rocket:` - Deployment related
 
 4. **Push to your fork**
+
    ```bash
    git push origin feature/amazing-feature
    ```
@@ -60,6 +65,7 @@ We actively welcome your pull requests! Here's how to contribute:
 ## Code Style Guidelines
 
 ### HTML
+
 - Use semantic HTML5 elements
 - Maintain proper indentation (tabs or spaces - be consistent)
 - Add meaningful `alt` attributes to images
@@ -67,6 +73,7 @@ We actively welcome your pull requests! Here's how to contribute:
 - Keep accessibility in mind (ARIA labels, semantic structure)
 
 ### CSS
+
 - Follow existing naming conventions
 - Use the project's color variables where applicable
 - Comment complex selectors
@@ -74,12 +81,14 @@ We actively welcome your pull requests! Here's how to contribute:
 - Test across browsers (Chrome, Firefox, Safari, Edge)
 
 ### JavaScript
+
 - Use ES6+ syntax where appropriate
 - Add comments for complex logic
 - Keep functions small and focused
 - Test functionality across different devices
 
 ### Responsive Design
+
 - Test on multiple screen sizes:
   - Mobile: 320px - 767px
   - Tablet: 768px - 1024px
