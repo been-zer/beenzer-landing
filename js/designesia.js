@@ -269,17 +269,26 @@
      function load_owl() {
        jQuery("#items-carousel").owlCarousel({
            center: false,
-           items:5,
+           items:6,
            loop:true,
-           margin:25,
+           margin:15,
            nav:true,
            navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
            dots:false,
            responsive:{
-               1000:{
+               1400:{
+                   items:6
+               },
+               1200:{
                    items:5
                },
-               600:{
+               992:{
+                   items:4
+               },
+               768:{
+                   items:3
+               },
+               576:{
                    items:2
                },
                0:{
