@@ -14571,7 +14571,7 @@ img.nft__item_preview{
 }
 
 .dark-scheme .nft__item_like {
-    color: rgba(255, 255, 255, .2);
+    color: rgba(255, 255, 255, .5);
 }
 
 .nft__item_like span {
@@ -14581,7 +14581,7 @@ img.nft__item_preview{
 }
 
 .dark-scheme .nft__item_like span {
-    color: #ffffff;
+    color: rgba(255, 255, 255, .8);
 }
 
 .nft__item_like i.active {
