@@ -149,6 +149,8 @@ Documentation improvements are always welcome:
 ### Getting Help
 
 - **Discord**: [Join our community](https://discord.gg/Ta9X6zbg)
+- **X (Twitter)**: [@beenzer_app](https://x.com/beenzer_app)
+- **Instagram**: [@beenzer_app](https://instagram.com/beenzer_app)
 - **Issues**: Use GitHub issues for bug reports and feature requests
 - **Email**: contact@beenzer.app for other inquiries
 

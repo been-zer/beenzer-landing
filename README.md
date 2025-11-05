@@ -10,6 +10,8 @@
   [![DAO Platform](https://img.shields.io/badge/DAO-dao.beenzer.app-purple)](https://dao.beenzer.app)
   [![Play Store](https://img.shields.io/badge/Download-Google_Play-green)](https://play.google.com/store/apps/details?id=beenzer.dapp)
   [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+  [![X](https://img.shields.io/badge/X-%40beenzer__app-black?logo=x&logoColor=white)](https://x.com/beenzer_app)
+  [![Instagram](https://img.shields.io/badge/Instagram-%40beenzer__app-E4405F?logo=instagram&logoColor=white)](https://instagram.com/beenzer_app)
   
   [Live Demo](https://beenzer.app) • [DAO Platform](https://dao.beenzer.app) • [Download App](https://play.google.com/store/apps/details?id=beenzer.dapp)
   
@@ -70,6 +72,7 @@ Unlike traditional social media platforms, Beenzer puts the power back in the ha
 Experience the Beenzer mobile app in motion by watching our latest walkthrough:
 
 - [Download or view the Beenzer app demo](videos/beenzer_app.mp4)
+- Follow along on [Instagram](https://instagram.com/beenzer_app) and [X](https://x.com/beenzer_app) for bite-sized previews and updates.
 
 > Tip: The video is stored in the `videos/` directory inside this repository. Clone the project or click the link above on GitHub to preview it directly.
 
