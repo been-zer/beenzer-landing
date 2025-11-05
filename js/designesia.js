@@ -269,7 +269,7 @@
      function load_owl() {
        jQuery("#items-carousel").owlCarousel({
            center: false,
-           items:4,
+           items:5,
            loop:true,
            margin:25,
            nav:true,
@@ -277,7 +277,7 @@
            dots:false,
            responsive:{
                1000:{
-                   items:4
+                   items:5
                },
                600:{
                    items:2
