@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.1] - 2025-11-05
 
 ### Added
+
 - Documented the new `videos/beenzer_app.mp4` walkthrough in the README.
 - Linked the official @beenzer_app accounts on X and Instagram across documentation.
 
@@ -18,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This marks the first production-ready release of the Beenzer Landing Page. All core features are complete, content is finalized, and the website is ready for public deployment.
 
 ### Added
+
 - Comprehensive SEO meta tags including Open Graph and Twitter Cards for better social media sharing
 - Canonical URLs to prevent duplicate content issues
 - "Coming Soon" sections for Staking, Governance, Marketplace, and Stats features in DAO page
@@ -28,6 +30,7 @@ This marks the first production-ready release of the Beenzer Landing Page. All c
 - Meta keywords for improved search engine optimization
 
 ### Fixed
+
 - Critical typo: "secction" → "section" in index.html
 - Animation delay typo in dao.html: "qs" → ".75s"
 - Invalid nested heading tags (h3 > h6, h3 > h1) replaced with semantic HTML
@@ -38,6 +41,7 @@ This marks the first production-ready release of the Beenzer Landing Page. All c
 - Broken social media links in footer (now pointing to actual Beenzer accounts)
 
 ### Changed
+
 - Improved meta descriptions for both index.html and dao.html
 - Updated page titles to be more descriptive and SEO-friendly
 - Changed inappropriate h3 tags to p tags for better semantic HTML
@@ -46,12 +50,14 @@ This marks the first production-ready release of the Beenzer Landing Page. All c
 - Replaced generic social media links with actual Beenzer community links
 
 ### Removed
+
 - Lorem ipsum placeholder text from Features section
 - Duplicate and redundant DAO tokenomics content
 
 ## [0.9.9] - 2023-XX-XX
 
 ### Added
+
 - Initial landing page structure
 - Basic NFT marketplace functionality
 - Team section with international team members
@@ -59,6 +65,7 @@ This marks the first production-ready release of the Beenzer Landing Page. All c
 - Wallet integration support
 
 ### Changed
+
 - Design improvements and modern UI updates
 - Enhanced mobile responsiveness
 
@@ -67,11 +74,13 @@ This marks the first production-ready release of the Beenzer Landing Page. All c
 ## [0.9.10] - 2025-11-05
 
 ### Added
+
 - Development branch workflow
 - Comprehensive CHANGELOG documentation
 - Development workflow guidelines in README
 
 ### Changed
+
 - Merged all v0.9.10 improvements to main branch
 - Finalized content and SEO optimizations
 
@@ -84,6 +93,7 @@ This marks the first production-ready release of the Beenzer Landing Page. All c
 The Beenzer Landing Page is now production-ready! This release represents the culmination of comprehensive refactoring, content completion, and optimization work.
 
 **What's included:**
+
 - ✅ Complete website content (no placeholders)
 - ✅ Professional SEO optimization with Open Graph and Twitter Cards
 - ✅ Fully functional DAO page with tokenomics

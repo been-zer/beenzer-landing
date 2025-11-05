@@ -43,6 +43,7 @@
 **Beenzer** is a revolutionary NFT social application that empowers users to create, mint, and monetize their digital content using blockchain technology. This repository contains the official landing page for the Beenzer platform, showcasing the app's features, tokenomics, and DAO functionality.
 
 With Beenzer, users can:
+
 - 📸 **Create NFTs** directly from their smartphone camera
 - 🎨 **Own their content** completely, without centralized control
 - 💰 **Monetize creations** by selling NFTs to their community
@@ -219,6 +220,7 @@ cd beenzer-landing
 You can simply open `index.html` directly in your browser, or use a local server:
 
 **Option A: Using Python**
+
 ```bash
 # Python 3
 python -m http.server 8000
@@ -228,22 +230,26 @@ python -m SimpleHTTPServer 8000
 ```
 
 **Option B: Using Node.js (http-server)**
+
 ```bash
 npx http-server -p 8000
 ```
 
 **Option C: Using PHP**
+
 ```bash
 php -S localhost:8000
 ```
 
 **Option D: Using VS Code**
+
 - Install the "Live Server" extension
 - Right-click on `index.html` and select "Open with Live Server"
 
 3. **Access the site**
 
 Open your browser and navigate to:
+
 ```
 http://localhost:8000
 ```
@@ -276,6 +282,7 @@ Edit files as needed using your preferred editor.
 3. **Test locally**
 
 Open the files in a local web server and test all changes:
+
 - Check responsive design on different screen sizes
 - Test dark/light mode switching
 - Verify all links and navigation work correctly
@@ -291,6 +298,7 @@ git commit -m "✨ Add new feature"
 ```
 
 Common prefixes:
+
 - 🌿 Branch operations
 - 📝 Content updates
 - 🔧 Bug fixes
@@ -319,11 +327,13 @@ git push origin main
 ### Version Management
 
 The project follows semantic versioning (MAJOR.MINOR.PATCH):
+
 - **PATCH** (0.9.x) - Bug fixes, content updates, minor improvements
 - **MINOR** (0.x.0) - New features, significant enhancements
 - **MAJOR** (x.0.0) - Major releases (requires explicit decision)
 
 Update the version in `CHANGELOG.md` following these rules:
+
 - Stay within the current major version (e.g., 0.9.x → 0.9.y or 0.10.0)
 - Do NOT increment to next major version without explicit approval
 - Document all changes in the CHANGELOG
@@ -362,7 +372,10 @@ If you want to use the map functionality, you'll need to:
 2. Replace the placeholder in `dao.html` (line 701):
 
 ```html
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly" defer></script>
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"
+  defer
+></script>
 ```
 
 ---
@@ -379,6 +392,7 @@ If you want to use the map functionality, you'll need to:
 The site includes the following main sections:
 
 **App Page (index.html)**
+
 - Home - Hero section with app introduction
 - Own - NFT ownership benefits
 - Create - Content creation features
@@ -389,6 +403,7 @@ The site includes the following main sections:
 - News - Latest updates and announcements
 
 **DAO Page (dao.html)**
+
 - Tokenomics - Token economy overview
 - Minting - Token minting process
 - Burning - Token burning mechanism
@@ -407,7 +422,12 @@ The landing page includes multiple color schemes located in the `css/colors/` di
 
 ```html
 <!-- In index.html or dao.html, modify this line: -->
-<link id="colors" href="css/colors/scheme-12.css" rel="stylesheet" type="text/css" />
+<link
+  id="colors"
+  href="css/colors/scheme-12.css"
+  rel="stylesheet"
+  type="text/css"
+/>
 ```
 
 Available schemes: `scheme-01.css` through `scheme-12.css`
@@ -421,6 +441,7 @@ Switch between different design modes by changing the design stylesheet:
 ```
 
 Available designs:
+
 - `de-modern.css` - Modern design (default)
 - `de-retro.css` - Retro style
 - `de-pure.css` - Minimalist design
