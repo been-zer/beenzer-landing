@@ -5,6 +5,7 @@
   
   ### 🚀 Revolutionary NFT Social App - Mint, Own, and Monetize Your Content
   
+  [![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen)](CHANGELOG.md)
   [![Website](https://img.shields.io/badge/Website-beenzer.app-blue)](https://beenzer.app)
   [![DAO Platform](https://img.shields.io/badge/DAO-dao.beenzer.app-purple)](https://dao.beenzer.app)
   [![Play Store](https://img.shields.io/badge/Download-Google_Play-green)](https://play.google.com/store/apps/details?id=beenzer.dapp)
