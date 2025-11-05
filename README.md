@@ -65,6 +65,16 @@ Unlike traditional social media platforms, Beenzer puts the power back in the ha
 
 ---
 
+## 🎬 Demo Video
+
+Experience the Beenzer mobile app in motion by watching our latest walkthrough:
+
+- [Download or view the Beenzer app demo](videos/beenzer_app.mp4)
+
+> Tip: The video is stored in the `videos/` directory inside this repository. Clone the project or click the link above on GitHub to preview it directly.
+
+---
+
 ## ✨ Features
 
 ### Landing Page Features
@@ -172,7 +182,8 @@ beenzer-landing/
 │   └── et-line-font/       # ET-Line icon font
 │
 ├── videos/                 # Video assets
-│   └── app.mp4             # App demonstration video
+│   ├── app.mp4             # Legacy app demonstration video
+│   └── beenzer_app.mp4     # Updated Beenzer walkthrough
 │
 └── html/                   # Additional HTML templates
     ├── 02_dark-*.html      # Dark mode page variations
@@ -541,8 +552,8 @@ We welcome contributions to the Beenzer Landing Page! Here's how you can help:
 
 ### Social Media
 
-- **Twitter:** [@beenzer_app](https://twitter.com/beenzer_app)
-- **Instagram:** [@beenzer_app](https://www.instagram.com/beenzer_app/)
+- **X (Twitter):** [@beenzer_app](https://x.com/beenzer_app)
+- **Instagram:** [@beenzer_app](https://instagram.com/beenzer_app)
 - **Discord:** [Join our community](https://discord.gg/Ta9X6zbg)
 
 ### Related Repositories
