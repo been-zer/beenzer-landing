@@ -24,6 +24,7 @@
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
 - [Getting Started](#-getting-started)
+- [Development Workflow](#-development-workflow)
 - [Usage](#-usage)
 - [Customization](#-customization)
 - [Deployment](#-deployment)
@@ -230,6 +231,110 @@ php -S localhost:8000
 Open your browser and navigate to:
 ```
 http://localhost:8000
+```
+
+---
+
+## 🔄 Development Workflow
+
+This project uses a branching strategy for organized development:
+
+### Branch Structure
+
+- **`main`** - Production-ready code, stable releases
+- **`dev`** - Development branch for all new features and fixes
+- **`feature/*`** - Optional feature branches for larger changes
+
+### Development Process
+
+1. **Start from dev branch**
+
+```bash
+git checkout dev
+git pull origin dev
+```
+
+2. **Make your changes**
+
+Edit files as needed using your preferred editor.
+
+3. **Test locally**
+
+Open the files in a local web server and test all changes:
+- Check responsive design on different screen sizes
+- Test dark/light mode switching
+- Verify all links and navigation work correctly
+- Test on multiple browsers (Chrome, Firefox, Safari, Edge)
+
+4. **Commit with meaningful messages**
+
+Use emoji prefixes for clarity:
+
+```bash
+git add <files>
+git commit -m "✨ Add new feature"
+```
+
+Common prefixes:
+- 🌿 Branch operations
+- 📝 Content updates
+- 🔧 Bug fixes
+- ♿ Accessibility improvements
+- ⚡ Performance optimizations
+- 📱 Responsive design changes
+- 🔍 SEO improvements
+- 📚 Documentation updates
+
+5. **Push to dev**
+
+```bash
+git push origin dev
+```
+
+6. **Merge to main when ready**
+
+Only merge to `main` when the `dev` branch is stable and tested:
+
+```bash
+git checkout main
+git merge dev
+git push origin main
+```
+
+### Version Management
+
+The project follows semantic versioning (MAJOR.MINOR.PATCH):
+- **PATCH** (0.9.x) - Bug fixes, content updates, minor improvements
+- **MINOR** (0.x.0) - New features, significant enhancements
+- **MAJOR** (x.0.0) - Major releases (requires explicit decision)
+
+Update the version in `CHANGELOG.md` following these rules:
+- Stay within the current major version (e.g., 0.9.x → 0.9.y or 0.10.0)
+- Do NOT increment to next major version without explicit approval
+- Document all changes in the CHANGELOG
+
+### Quick Reference
+
+```bash
+# Check current branch
+git branch --show-current
+
+# Switch to dev branch
+git checkout dev
+
+# Create a new feature branch (optional)
+git checkout -b feature/my-new-feature
+
+# View changes
+git status
+git diff
+
+# Stage and commit
+git add .
+git commit -m "✨ Your commit message"
+
+# Push changes
+git push origin dev
 ```
 
 ### Configuration
