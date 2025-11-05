@@ -5,6 +5,36 @@ All notable changes to the Beenzer Landing Page project will be documented in th
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.5] - 2025-11-05
+
+### Changed
+
+- Updated NFT carousel to display 5 cards on desktop (matching team carousel)
+- Carousel now shows consistent number of items across sections
+
+## [1.0.4] - 2025-11-05
+
+### Fixed
+
+- Removed defunct polyfill.io script that was causing console errors
+- Modern browsers no longer need polyfill.io dependency
+
+## [1.0.3] - 2025-11-05
+
+### Fixed
+
+- Fixed 404 errors for NFT card images (BEENZER#12.jpg and BEENZER#54.jpg)
+- Renamed image files to remove `#` character which caused URL encoding issues
+- Updated HTML references to use new filenames (BEENZER-12.jpg, BEENZER-54.jpg)
+
+## [1.0.2] - 2025-11-05
+
+### Fixed
+
+- Fixed NFT carousel infinite loop behavior (changed `rewind:true` to `loop:true`)
+- Improved dark mode visibility for heart icons and like counts in NFT cards
+- Enhanced opacity values for better readability in dark mode
+
 ## [1.0.1] - 2025-11-05
 
 ### Added
